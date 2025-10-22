@@ -1,4 +1,3 @@
-# weather-based-outfit-recommender
 # Weather-Based Outfit Recommender
 
 A simple web application that recommends what to wear based on the **current weather conditions** and **temperature**.  
