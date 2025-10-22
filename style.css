@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4; /* Neutral background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff; /* Solid card background */
+    padding: 2.5em 3em;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-10px) scale(1.02); /* Lift and slightly enlarge */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+#weather-info, #outfit-recommendation {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Optional: Add small icons or badges for weather */
+.weather-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
